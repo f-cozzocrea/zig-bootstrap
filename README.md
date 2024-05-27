@@ -1,5 +1,11 @@
 # bootstrap-zig
 
+This fork is the same as the upstream zig-bootstrap repo, except that clang is
+built in debug mode. The full bootstrap with `build-clang-debug` using the same
+arguments as the original `build` script. The original README follows below:
+
+-------------------------------------------------------------------------------
+
 The purpose of this project is to start with minimum system dependencies and
 end with a fully operational Zig compiler for any target.
 
